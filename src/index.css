@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #8dadce;
+  margin: 0;
+  padding: 50px;
+}
+.container{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: flex-start;
+}
+.userNamesCardContainer{
+  background-color:rgb(223, 168, 168) ;
+  padding:20px ;
+  border-radius: 12px;
+  width: 250px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);;
+  display: flex;
+  flex-direction: column;
+}
+
+.userNameCards{
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    background: #f0f0f0;
+    cursor: pointer;
+    transition: 0.2s;
+    font-size: 20px;
+}
+.userNameCards:hover{
+  background: #dfe6e9;
+  transform: scale(1.03);
+}
+
+
+.userDetailsCard{
+  background-color:rgb(223, 168, 168) ;
+  padding: 20px;
+  border-radius: 12px;
+  width: 250px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) ;
+}
+
+.userDetailsCard h2{
+  margin: 10px 0;
+  color: black;
+}
+.userDetailsCard p{
+  margin: 16px 0;
+  color: black;
+  font-size: 18px;
+}
+
+.title{
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
